@@ -36,11 +36,14 @@ char alumno[100] = "Arantxa";
 
 3)  Explica a detalle la importancia de la función "hash" al implementar un Mapa / Tabla Hash, y por qué se le aplica la operación de módulo.
 
-  R= 
+  R= La funcion Hash crea el KEY en un Hashmap y se utiliza % para asegurarnos de que el KEY este dentro del rango de la tabla
 
 4)	¿Por qué implementamos un conjunto mediante un árbol binario de búsqueda en lugar de utilizar una lista enlazada o un arreglo? Justifica bien tu respuesta.	
 
-  R=
+  R= Por varias razones:
+    > el arbol binario ya tiene un orden automatico y no admite duplicados, lo que ayuda a la hora de buscar
+    > Crece sin necesidad de que realoquemos toda la estrcutura
+    > extra: Tiene complejida de O(log n) a diferencia de O(n) como en listas ligadas y arrays
 
 5)	Al crear un TDA / Librería ¿Por qué utilizamos void pointers en lugar de datos de un tipo específico?
 
