@@ -47,11 +47,11 @@ char alumno[100] = "Arantxa";
 
 5)	Al crear un TDA / Librería ¿Por qué utilizamos void pointers en lugar de datos de un tipo específico?
 
-  R=
+  R= Ya que los void pointer admiten cualquier tipo de dato y esto hace a la libreria bastante flexible
 
 6) Menciona una diferencia entre un conjunto y un mapa, desde el punto de vista de su comportamiento, no de su implementación:
 
-  R=
+  R= un mapa almacena "dos valores" por asi decirlo (KEY - VALUE pair) mientras que un conjunto no usa pares y solo almacena valores unicos 
 
 ******************************************************** Teoría 2: 4 preguntas de 10 puntos       /40 pts **************************************************************
 
@@ -65,7 +65,16 @@ char alumno[100] = "Arantxa";
    /     /              \
   0     6                20
 
-  R=
+  R=         10
+          /      \
+        3         16
+      /   \      /   \
+    1      8   11     18
+   /     /         \     \
+  0     6          14    20
+                      \
+                      13
+
 
 
 8) Asume que se crea un montículo binario "máximo" a partir del siguiente arreglo.:
